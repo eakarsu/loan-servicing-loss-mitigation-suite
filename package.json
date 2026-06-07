@@ -1,0 +1,14 @@
+{
+  "name": "loan-servicing-loss-mitigation-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Loan servicing workflows, delinquency management, loss mitigation, borrower communication, compliance, and investor reporting.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

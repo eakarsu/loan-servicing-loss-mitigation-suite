@@ -1,0 +1,145 @@
+{
+  "slug": "loan-servicing-loss-mitigation-suite",
+  "title": "Loan Servicing Loss Mitigation Suite",
+  "buyer": "Mortgage servicers, banks, credit unions, fintech lenders",
+  "description": "Loan servicing workflows, delinquency management, loss mitigation, borrower communication, compliance, and investor reporting.",
+  "modules": [
+    {
+      "id": "portfolio",
+      "table": "portfolio",
+      "label": "Servicing Portfolio",
+      "description": "Servicing Portfolio workspace for Loan Servicing Loss Mitigation Suite.",
+      "subfeatures": [
+        "Loan status",
+        "Investor",
+        "Escrow"
+      ],
+      "prefix": "SP",
+      "seedValues": [
+        "Loan status",
+        "Investor",
+        "Escrow"
+      ]
+    },
+    {
+      "id": "delinquency",
+      "table": "delinquency",
+      "label": "Delinquency Queue",
+      "description": "Delinquency Queue workspace for Loan Servicing Loss Mitigation Suite.",
+      "subfeatures": [
+        "Days past due",
+        "Promise to pay",
+        "Risk"
+      ],
+      "prefix": "DQ",
+      "seedValues": [
+        "Days past due",
+        "Promise to pay",
+        "Risk"
+      ]
+    },
+    {
+      "id": "loss-mitigation",
+      "table": "lossMitigation",
+      "label": "Loss Mitigation",
+      "description": "Loss Mitigation workspace for Loan Servicing Loss Mitigation Suite.",
+      "subfeatures": [
+        "Workout options",
+        "Docs needed",
+        "Decisioning"
+      ],
+      "prefix": "LM",
+      "seedValues": [
+        "Workout options",
+        "Docs needed",
+        "Decisioning"
+      ]
+    },
+    {
+      "id": "borrower-comms",
+      "table": "borrowerComms",
+      "label": "Borrower Communications",
+      "description": "Borrower Communications workspace for Loan Servicing Loss Mitigation Suite.",
+      "subfeatures": [
+        "Call scripts",
+        "Letters",
+        "Portal"
+      ],
+      "prefix": "BC",
+      "seedValues": [
+        "Call scripts",
+        "Letters",
+        "Portal"
+      ]
+    },
+    {
+      "id": "foreclosure",
+      "table": "foreclosure",
+      "label": "Foreclosure Referral",
+      "description": "Foreclosure Referral workspace for Loan Servicing Loss Mitigation Suite.",
+      "subfeatures": [
+        "Milestones",
+        "Hold reasons",
+        "Counsel"
+      ],
+      "prefix": "FR",
+      "seedValues": [
+        "Milestones",
+        "Hold reasons",
+        "Counsel"
+      ]
+    },
+    {
+      "id": "compliance",
+      "table": "compliance",
+      "label": "Servicing Compliance",
+      "description": "Servicing Compliance workspace for Loan Servicing Loss Mitigation Suite.",
+      "subfeatures": [
+        "Reg X",
+        "SCRA",
+        "State rules"
+      ],
+      "prefix": "SC",
+      "seedValues": [
+        "Reg X",
+        "SCRA",
+        "State rules"
+      ]
+    },
+    {
+      "id": "payments",
+      "table": "payments",
+      "label": "Payment Processing",
+      "description": "Payment Processing workspace for Loan Servicing Loss Mitigation Suite.",
+      "subfeatures": [
+        "Plans",
+        "Reinstatement",
+        "Suspense"
+      ],
+      "prefix": "PP",
+      "seedValues": [
+        "Plans",
+        "Reinstatement",
+        "Suspense"
+      ]
+    },
+    {
+      "id": "investor-reporting",
+      "table": "investorReporting",
+      "label": "Investor Reporting",
+      "description": "Investor Reporting workspace for Loan Servicing Loss Mitigation Suite.",
+      "subfeatures": [
+        "Remittance",
+        "Exceptions",
+        "SLA"
+      ],
+      "prefix": "IR",
+      "seedValues": [
+        "Remittance",
+        "Exceptions",
+        "SLA"
+      ]
+    }
+  ],
+  "port": 5611
+}
